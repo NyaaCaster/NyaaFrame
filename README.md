@@ -36,7 +36,7 @@ NyaaFrame/
 
 | 服务 | 容器名 | 端口 | 镜像仓库 |
 |------|--------|------|----------|
-| app | nyaaframe | 3000:80 | h.hony-wen.com:5000/nyaaframe |
+| app | nyaaframe | 3000:80 | localhost:5000/nyaaframe |
 
 ## 使用方式
 

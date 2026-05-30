@@ -29,7 +29,7 @@
   "description": "<中文描述>",
   "author": "NyaaCaster",
   "repository": "https://github.com/NyaaCaster/<ProjectName>.git",
-  "registry": "h.hony-wen.com:5000/<projectname>",
+  "registry": "localhost:5000/<projectname>",
   "stack": ["Nginx", "Vite", "React", "TypeScript", "Tailwind", ...],
   "container": "<projectname>",
   "port": "<host>:<container>",

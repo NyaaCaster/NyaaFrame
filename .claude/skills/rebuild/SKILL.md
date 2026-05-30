@@ -19,8 +19,8 @@
 如果用户要求推送镜像：
 
 ```powershell
-docker tag nyaaframe:latest h.hony-wen.com:5000/nyaaframe:latest
-docker push h.hony-wen.com:5000/nyaaframe:latest
+docker tag nyaaframe:latest localhost:5000/nyaaframe:latest
+docker push localhost:5000/nyaaframe:latest
 ```
 
 ## 注意事项
