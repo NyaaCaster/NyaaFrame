@@ -29,7 +29,7 @@ NyaaFrame/
 ├── nginx.conf              # Nginx 配置
 ├── package.json            # 依赖管理
 ├── postcss.config.js       # PostCSS 配置（Tailwind）
-├── rebuild.ps1             # Docker 构建重启脚本
+├── rebuild.py              # Docker 构建重启脚本
 ├── tsconfig.json           # TypeScript 配置
 └── vite.config.ts          # Vite 配置
 ```
@@ -59,9 +59,9 @@ npm run dev
 
 ### Docker 部署
 
-```powershell
-.\rebuild.ps1           # 使用缓存构建
-.\rebuild.ps1 -NoCache  # 无缓存构建
+```bash
+python rebuild.py            # 使用缓存构建
+python rebuild.py --no-cache # 无缓存构建
 ```
 
 ## Claude Code 入口

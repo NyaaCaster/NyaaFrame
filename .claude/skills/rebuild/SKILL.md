@@ -10,15 +10,15 @@
 
 ## 步骤
 
-1. 执行 `.\rebuild.ps1`（默认使用缓存）
-2. 如果用户要求无缓存构建，执行 `.\rebuild.ps1 -NoCache`
+1. 执行 `python rebuild.py`（默认使用缓存）
+2. 如果用户要求无缓存构建，执行 `python rebuild.py --no-cache`
 3. 确认容器状态正常
 
 ## 推送到私有仓库（可选）
 
 如果用户要求推送镜像：
 
-```powershell
+```bash
 docker tag nyaaframe:latest localhost:5000/nyaaframe:latest
 docker push localhost:5000/nyaaframe:latest
 ```
