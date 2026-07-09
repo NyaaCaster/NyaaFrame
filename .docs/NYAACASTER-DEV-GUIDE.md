@@ -42,7 +42,7 @@
 | 构建阶段 | `node:20-alpine` | npm ci → vite build |
 | 运行阶段 | `nginx:alpine` (前端) / `node:20-alpine` (后端) | 镜像目标 ≤40MB |
 | 反向代理 | **nginx** | SPA 路由 + `/api/*` 代理 + 安全头 |
-| 注册表 | **NyaaDockerHUB** (私有，HTTP) | `h.nyaa.host:5000` |
+| 注册表 | **NyaaDockerHUB** (私有，HTTP) | `localhost:5000` |
 | 大文件 | `E:\DockerRes\<project>\` | bind mount 到低速大容量盘 |
 | 端口约定 | 容器内 `80` (前端) / `3000` (后端) | 宿主机端口按项目分配 |
 | 重启策略 | `unless-stopped` | 所有服务 |
